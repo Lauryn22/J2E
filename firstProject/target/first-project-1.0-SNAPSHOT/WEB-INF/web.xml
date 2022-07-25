@@ -20,6 +20,10 @@
         <servlet-name>CountWordsServlet</servlet-name>
         <servlet-class>fr.m2i.firstproject.CountWordsServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NombrePremierServlet</servlet-name>
+        <servlet-class>fr.m2i.firstproject.NombrePremierServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>FirstServlet</servlet-name>
         <url-pattern>/FirstServlet</url-pattern>
@@ -39,6 +43,10 @@
     <servlet-mapping>
         <servlet-name>CountWordsServlet</servlet-name>
         <url-pattern>/CountWordsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NombrePremierServlet</servlet-name>
+        <url-pattern>/NombrePremierServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

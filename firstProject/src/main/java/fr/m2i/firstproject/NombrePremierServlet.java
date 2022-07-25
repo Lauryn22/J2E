@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class CountWordsServlet extends HttpServlet {
+public class NombrePremierServlet extends HttpServlet {
 
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -18,15 +18,8 @@ public class CountWordsServlet extends HttpServlet {
      */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        
-        String sentence = request.getParameter("sentence");
-
-        if (sentence != null) {
-            request.setAttribute("number", new StringTokenizer(sentence).countTokens());
-        }
-        
-        this.getServletContext().getRequestDispatcher("/countWordsServlet.jsp").forward(request, response);
+            throws ServletException, IOException {        
+        this.getServletContext().getRequestDispatcher("/nombrePremier.jsp").forward(request, response);
     }
 
     /**

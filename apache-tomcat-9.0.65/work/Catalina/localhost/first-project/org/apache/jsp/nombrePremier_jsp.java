@@ -6,13 +6,13 @@
  *       the last modified time of the source file after
  *       generation to assist with modification tracking.
  */
-package org.apache.jsp.include;
+package org.apache.jsp;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class header_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class nombrePremier_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent,
                  org.apache.jasper.runtime.JspSourceImports {
 
@@ -115,16 +115,37 @@ public final class header_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    ");
+      org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "include/header.jsp" + "?" + org.apache.jasper.runtime.JspRuntimeLibrary.URLEncode("title", request.getCharacterEncoding())+ "=" + org.apache.jasper.runtime.JspRuntimeLibrary.URLEncode("Le nombre premier", request.getCharacterEncoding()), out, false);
       out.write("\n");
+      out.write("    <body>\n");
+      out.write("     ");
+
+        int valeurMax= 30;
+        boolean statu = true;
+        int reste;
+        for (int i = 2; i <= valeurMax/2; i++) {
+                reste = valeurMax % i;
+                if (reste == 0) {
+                statu = false;
+                break;
+            }
+         }
+         if(statu) {
+         System.out.println(valeurMax + " est un nombre premier");
+         } else {
+             System.out.println(valeurMax + " n'est pas un nombre premier");
+         }			
+     
+     
       out.write("\n");
-      out.write("    <head>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>");
-      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${param.title}", java.lang.String.class, (javax.servlet.jsp.PageContext)_jspx_page_context, null));
-      out.write("</title>\n");
-      out.write("    </head>\n");
-      out.write("    \n");
-      out.write("\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
     } catch (java.lang.Throwable t) {
       if (!(t instanceof javax.servlet.jsp.SkipPageException)){
         out = _jspx_out;
