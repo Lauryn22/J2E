@@ -1,0 +1,61 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/bila_/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar;C:/Users/bila_/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/bila_/Desktop/J2E/firstProject/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/bila_/Desktop/J2E/firstProject/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'first-project 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/bila_/Desktop/J2E/firstProject/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'first-project 1.0-SNAPSHOT API'
+fr.m2i.firstproject
+'C:/Users/bila_/Desktop/J2E/firstProject/src/main/java/fr/m2i/firstproject/FirstProject.java'
+'C:/Users/bila_/Desktop/J2E/firstProject/src/main/java/fr/m2i/firstproject/FirstServlet.java'
+'C:/Users/bila_/Desktop/J2E/firstProject/src/main/java/fr/m2i/firstproject/NumberServlet.java'
+'C:/Users/bila_/Desktop/J2E/firstProject/src/main/java/fr/m2i/firstproject/SecondServlet.java'
+'C:/Users/bila_/Desktop/J2E/firstProject/src/main/java/fr/m2i/firstproject/ShowRequestHeaders.java'
+C:\Users\bila_\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar = 1658481298939
+C:\Users\bila_\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar = 1658482788465
+C:\Users\bila_\Desktop\J2E\firstProject\src\main\java = 1658491368128
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\allclasses-index.html = 1658742178039
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\allpackages-index.html = 1658742178043
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\copy.svg = 1658742178094
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\element-list = 1658742177900
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\help-doc.html = 1658742178085
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\index-all.html = 1658742178075
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\index.html = 1658742178016
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\jquery-ui.overrides.css = 1658742178148
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\member-search-index.js = 1658742178052
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\module-search-index.js = 1658742178045
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\overview-summary.html = 1658742178079
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\overview-tree.html = 1658742178009
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\package-search-index.js = 1658742178048
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\package-summary.html = 1658742177912
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\package-tree.html = 1658742177920
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\package-use.html = 1658742177995
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\script.js = 1658742178092
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\search.js = 1658742178098
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\serialized-form.html = 1658742177950
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\ShowRequestHeaders.html = 1658742177897
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\stylesheet.css = 1658742178089
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\tag-search-index.js = 1658742178055
+C:\Users\bila_\Desktop\J2E\firstProject\target\apidocs\type-search-index.js = 1658742178050

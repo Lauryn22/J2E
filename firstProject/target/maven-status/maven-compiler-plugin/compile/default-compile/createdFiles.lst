@@ -1,1 +1,5 @@
 fr\m2i\firstproject\FirstProject.class
+fr\m2i\firstproject\FirstServlet.class
+ShowRequestHeaders.class
+fr\m2i\firstproject\NumberServlet.class
+fr\m2i\firstproject\SecondServlet.class
